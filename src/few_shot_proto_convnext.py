@@ -6,9 +6,23 @@ angiogenesis classification. Uses ConvNeXt-base for feature extraction and
 k-means clustering to compute class prototypes. Classification is performed 
 by nearest-prototype assignment.
 
-Author: [Your Name]
-Date: 2024
-License: MIT
+
+    Compute class prototypes via k-means clustering.
+    
+    Mathematical formulation:
+        Given support set S_c = {x_{c,1}, ..., x_{c,k}} for class c,
+        extract features: f_{c,i} = E(x_{c,i}) / ||E(x_{c,i})||_2
+        
+        Compute prototypes via k-means (n=2):
+        {p_{c,1}, p_{c,2}} = k-means({f_{c,1}, ..., f_{c,k}})
+    
+    Classification: ŷ = argmin_{c,j} ||f_query - p_{c,j}||_2
+
+
+
+Author: Eymard Hernandez-Lopez
+Date: April/2026
+Under: MIT
 """
 
 import os

@@ -6,9 +6,9 @@ angiogenesis images using CLIP ViT-B/32 with ensemble prompting (100 prompts
 per class, 300 total). Prompt averaging enables robust prediction without 
 task-specific fine-tuning.
 
-Author: [Your Name]
-Date: 2024
-License: MIT
+Author: Eymard Hernandez-Lopez
+Date: April/2026
+Under: MIT
 """
 
 import os

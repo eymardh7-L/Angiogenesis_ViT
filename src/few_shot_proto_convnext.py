@@ -20,7 +20,6 @@ by nearest-prototype assignment.
 
 
 
-Author: Eymard Hernandez-Lopez
 Date: April/2026
 Under: MIT
 """

@@ -5,7 +5,6 @@ Full fine-tuning of Swin-Base with replaced classification head.
 Includes 80/20 train/val split, data augmentation, and early stopping
 based on validation loss.
 
-Author: Eymard Hernandez-Lopez
 Date: April/2026
 Under: MIT
 """
